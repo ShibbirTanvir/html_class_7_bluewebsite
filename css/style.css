@@ -1,0 +1,258 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+/*header start*/
+
+.header{
+	padding: 20px 0;
+	background-color: #121b2a;
+}
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+
+}
+.logo{
+	float: left;
+	width: 20%;
+}
+.logo img{
+	width: 60%;
+}
+.menu{
+	float: right;
+}
+.menu ul{
+	margin-top: 30px;
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	display: inline-block;
+	color: white;
+	margin-right: 30px;
+	text-decoration: none;
+	transition: .3s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #0279bd;
+}
+
+
+/*header end*/
+
+
+/*banner start*/
+
+.banner{
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: inset 0 0 8px 0 black;
+}
+
+.bcwrapper{
+	padding: 150px 0;
+	width: 50%;
+}
+
+.bcwrapper h2{
+	margin-bottom: 30px;
+	margin: 0;
+	font-weight: normal;
+	color: white;
+	font-size: 30px;
+}
+.bcwrapper h1{
+	margin: 0;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: #0075ba;
+	font-size: 40px;
+}
+.bcwrapper p{
+	margin: 0;
+	margin-bottom: 20px;
+	font-weight: normal;
+	color: white;
+	font-size: 16px;
+	line-height: 20px;
+}
+.bcwrapper button{
+	font-weight: bold;
+	font-size: 20px;
+	color: #5b5b5b;
+	width: 220px;
+	height: 50px;
+	background-color: white;
+	border-radius: 3px;
+	border: none;
+	cursor: pointer;
+}
+
+.sendicon{
+	margin: auto 0 auto 15px;
+}
+
+/*banner end*/
+
+
+/*service start*/
+
+.service{
+	background-color: #121b2c;
+	padding: 50px 0;
+}
+.sswrapper{
+	overflow: hidden;
+}
+.single{
+	margin-right: 35px;
+	float: left;
+	width: 28%;
+}
+
+#lastsingle{
+	margin-right: 0;
+}
+
+#secondsingle{
+	padding-left: 50px;
+	padding-right: 50px;
+	border-right: 1px solid #1a2430;
+	border-left: 1px solid #1a2430;
+}
+.imgh1wrapper{
+	overflow: hidden;
+}
+.ssimg{
+	margin-right: 0;
+	float: left;
+	width: 20%;
+}
+.ssimg img{
+	width: 100%;
+}
+.sstext{
+	padding: 7px 0;
+	width: 75%;
+	float: right;
+}
+.sstext p{
+	margin: 2px 0;
+	color: white;
+	font-size: 20px;
+}
+.sstext h2{
+	margin: 0;
+	color: #0277ba;
+	font-size: 25px;
+}
+.single p{
+	color: white;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/*service end*/
+
+
+/*contact start*/
+
+.contact{
+	background-color: #040811;
+	padding: 50px 0;
+}
+.cs1{
+	overflow: hidden;
+	margin-right: 85px;
+	width: 28%;
+	float: left;
+}
+.cs1 h2{
+	color: white;
+}
+.cs1 h3{
+	margin: 20px 0 0 0;
+	color: white;
+}
+.span{
+	color: #0075b8;
+}
+.cs1 p{
+	margin: 10px 0;
+	font-size: 14px;
+	line-height: 22px;
+	color: white;
+}
+.cs1 table{
+	color: white;
+}
+
+.mobile{
+	float: left;
+	width: 40%;
+}
+
+.applogo{
+	float: right;
+	width: 55%;
+}
+
+
+#cs1{
+	margin-right: 0;
+}
+/*contact end*/
+
+
+
+/*footer start*/
+
+.footer{
+	padding: 20px 0; 
+	background-color: #121b2c;
+}
+
+.f-menu{
+	float: left;
+	width: 60%;
+}
+.f-menu ul{
+	padding: 0;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.f-menu ul li{
+	float: left;
+	list-style: none;
+}
+.f-menu ul li a{
+	margin-right: 30px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+.f-menu p{
+	color: white;
+}
+.f-logo{
+	width: 30%;
+	float: right;
+}
+.f-logo img{
+	margin-right: 70px;
+}
+
+/*footer end*/
